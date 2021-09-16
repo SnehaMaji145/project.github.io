@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url(../images/176.jpg);
+    background-size: 1600px 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.three{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color:rgb(15, 104, 187);
+}
+p{
+    color: black;
+}
+.two{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    
+}
+.boo {
+    background: url(../images/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1400px 600px;
+    margin-bottom: 80px;
+}
+.four{
+    color:rgb(255, 1, 128);
+    
+    font-family: "merlin";
+
+}
+.five{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.six{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.six img{
+    max-width: 100%;
+    padding: 100px 0;
+    transform: translateX(-20%);
+    margin-top: 250px ;
+    
+}
+.six h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: rgb(55, 230, 32);
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.one .five{
+    margin-top: 70px;
+}
+.ten{
+    margin: 70px 0;
+}
+.seven{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.seven img{
+    width: 100%;
+}
+.eleven{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.eight{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+    font-weight: bold;
+}
+.eight img{
+    width: 100%;
+}
+.fifteen{
+    display: inline-block;
+    background: #ff523b;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.sixteen{
+    display: inline-block;
+    background: #b2f7ac;
+    color: rgb(37, 201, 31);
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+.seventeen {
+    text-decoration: line-through;
+}
+.eighteen {
+    display: inline-block;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after
+{
+    content: '';
+    background: #ff523b;
+    width: 250px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4{
+    color:black;
+    font-weight: normal;
+}
+.eight p{
+    font-size: 14px;
+}
+.eight:hover{
+    transform: translateY(-5px);
+}
+
+.item{
+    background: radial-gradient(#fff,#fafc86);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.six .item img{
+    padding: 50px;
+}
+small{
+    color: #555;
+}
+
+
+.twelve{
+    padding-top: 100px;
+}
+.twelve .seven{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.twelve .seven img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.twelve .seven:hover{
+    transform: translateY(-10px);
+}
+.yoo{
+    font-size: 34px;
+    color: #ff523b;
+}
+.seven p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+.twelve .seven h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+
+.brands{
+    margin: 100px auto;
+}
+.nine{
+    width: 160px;
+}
+.nine img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.nine img:hover{
+    filter: grayscale(0);
+}
+
+.thirteen{
+    background: rgb(0, 0, 0);
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.thirteen p{
+    color: #8a8a8a;
+
+}
+.thirteen h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.fourteen-1, .fourteen-2, .fourteen-3{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.fourteen-1{
+    flex-basis: 30%;
+}
+.fourteen-2{
+    flex: 1;
+    text-align: center;
+}
+.fourteen-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.fourteen-3 {
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app{
+    margin-top: 20px;
+}
+.app img{
+    width: 140px;
+}
+.thirteen hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20 0;
+
+}
+
+.copyright{
+    text-align: center;
+}
+form {
+    text-align: center;
+    margin-top: 250px;
+    
+        background: radial-gradient(#fff,#f5540a);
+        width: 500px;
+        height: 450px;
+        margin-left: 500px;
+        box-sizing: border-box;
+        border-style: solid;
+    
+}   
+.order{
+    text-align: center;
+    margin-top: 250px;
+    
+        background: radial-gradient(#fff,#f5540a);
+        width: 500px;
+        height: 300px;
+        margin-left: 500px;
+        box-sizing: border-box;
+        border-style: solid;
+    
+}   
+.contact {
+    text-align: center;
+    margin-top: 250px;
+    
+        background: radial-gradient(#fff,#f5540a);
+        width: 500px;
+        height: 400px;
+        margin-left: 500px;
+        box-sizing: border-box;
+        border-style: solid;
+    
+}   
+.about{
+    text-align: center;
+    margin-top: 250px;
+    
+        background: radial-gradient(#fff,#f5540a);
+        width: 530px;
+        height: 220px;
+        margin-left: 500px;
+        box-sizing: border-box;
+        border-style: solid;
+    
+}   
+.mi {
+    display: inline-block;
+    
+}
+.aii {
+    font-family: cursive;
+    color: rgba(219, 38, 38, 0.897);
+}
+.oii {
+    font-family: cursive;
+    color: rgb(247, 62, 16);
+}
+.hui{
+    display: inline-block;
+    background: #ff523b;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    margin-left: 43.5%;
+}
+.hui:hover{
+    background: #563434;
+}
